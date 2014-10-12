@@ -19,5 +19,7 @@ def train_example():
     train = Train(dataset='data.pkl',model=model, algoritm=algorithm, extensions=[MonitorBasedLRAdjuster()])
     train.main_loop()
 
+
+
 if __name__ == '__main__':
     train_example()
